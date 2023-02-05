@@ -1,0 +1,36 @@
+body{
+    background-color: aquamarine;
+}
+
+.container{
+    /* background-color: brown; */
+    height: 100vh;
+    display: flex;
+}
+
+
+    #container-iz{
+        background-color: cadetblue;
+        width: 50vw;
+    }
+
+    #container-dc{
+        background-color: blueviolet;
+        width: 50vw;
+    }
+
+    @media (max-width:360px){
+        .container{
+            display: block;
+        }
+
+        #container-iz{
+            width: 100vw;
+            height: 50vw;
+    }
+
+        #container-dc{
+            width: 100%;
+            height: 50vh;
+    }
+}

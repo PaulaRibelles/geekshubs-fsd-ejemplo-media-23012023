@@ -1,0 +1,27 @@
+body{
+    background-color: aquamarine;
+}
+
+.container{
+    background-color: brown;
+    height: 50vh;
+}
+
+.container-1{
+    background-color: blue;
+    height: 50vh;
+}
+
+@media (max-width: 1024px){
+    .container-1{
+        background-color: chartreuse;
+        height: 50vh;
+    }
+    }
+
+    @media (max-width: 360px){
+        .container{
+            background-color: rgb(255, 0, 170);
+            height: 50vh;
+        }
+        }

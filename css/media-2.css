@@ -1,0 +1,46 @@
+body{
+    background-color: aquamarine;
+}
+
+.container{
+    background-color: brown;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#container-head{
+    height: 10vh;
+    width: 100vw;
+    background-color: bisque;
+    display: flex;
+}
+
+    #container-main{
+        background-color: cadetblue;
+        width: 100vw ;
+        height: 80vh;
+        display: flex;
+    }
+
+    #main-iz{
+        background-color: coral;
+    }
+
+    #main-dc{
+        background-color: chocolate;
+    }
+
+    #footer{
+        background-color: orange;
+        height: 30vh;
+    }
+
+    @media (max-width:360px){
+        #main-iz{
+            display: none;
+        }
+        #main-dc{
+            width: 100%;
+        }
+}
